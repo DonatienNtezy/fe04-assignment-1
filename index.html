@@ -5,6 +5,55 @@
     <title>Styling Exercise</title>
     <style>
         /* Your CSS code goes here */
+/* class selectors to style the header, main, and footer sections with different background colors, padding and margin*/
+        .header{
+            background-color: rgb(70, 86, 231);
+            margin: 20px;
+            padding: 10px;
+        }
+        .main {
+            background-color: rgb(218, 208, 208);
+            margin: 15px;
+            padding: 2px;
+        }
+        .footer{
+            background-color: rgb(250, 158, 29);
+            margin: 25px;
+            padding: 10px;
+        }
+    /* using tag selectors to style the heading, list items, and paragraphs with different font sizes and  colors*/
+        h1{
+            font-size: 50px;
+            color: white;
+        }
+        h2{
+            font-size: 35px;
+            color: rgb(8, 44, 225);
+        }
+        li{
+            color: azure;
+            font-size: 20px;
+        }
+        p{
+            color: whitesmoke;
+            font-size: 15px;
+        }
+    /* using ID selectors to style the first list item with a border and a different font color.*/
+        #first-item{
+            border: 1px solid black;
+            color: brown;
+        }
+    /*using pseudo-class selectors to style the links in the header and footer sections with different hover effects: color and font-size */
+        a:hover{
+            color: red;
+            font-size: 30px;
+        }
+    /* using pseudo-element selectors to style the first letter of each paragraph in the main section with a 
+larger font size and a different color.*/
+        p::first-letter{
+            font-size: 25px;
+            color: orangered;
+        }
     </style>
 </head>
 
